@@ -1,0 +1,46 @@
+nodos distintos:
+
+correr en la maquina del controller:
+
+erl -sname controller
+
+c(forwardChainingDist3).
+forwardChainingDist3:startControllerNode().
+
+correr en otra consola u otra maquina reemplazando los valores entre "<>":
+
+erl -sname <nombreNodo>
+c(forwardChainingDist3.erl).
+
+forwardChainingDist3:startRulesNode(<nombreNodo>, '<nombreNodo>@<nombreMaquinaActual>', 'controller@<nombreMaquinaDelController>').
+
+ejemplo:
+erl -sname node1
+
+c(forwardChainingDist3).
+forwardChainingDist3:startRulesNode(node1, 'node1@mariano', 'controller@mariano').
+
+Estas instrucciones lo que haces es registrar un nodo en el controlador.
+Si lo hacen varias veces en consolas distintas con nombres distintos, van a registrar varios nodos.
+
+
+
+correr en la maquina del controller:
+forwardChainingDist3:executeRules(<Hechos>, <archivo de reglas>).
+
+
+
+ejemplo:
+forwardChainingDist3:executeRules(["6"], "rules-1000.txt").
+
+
+
+
+
+nodos iguales:
+erl
+c(forwardChaining.erl).
+forwardChaining:executeNodes(<Facts>, <archivo de reglas>, <numero de nodos a levantar>).
+
+ejemplo:
+forwardChaining:executeNodes(["6"], "rules-100.txt", 2).
