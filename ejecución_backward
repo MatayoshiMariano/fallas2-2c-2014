@@ -1,0 +1,11 @@
+erl -sname controller
+
+c(backwardChaining).
+backwardChaining:startControllerNode().
+
+erl -sname node1
+c(backwardChaining).
+backwardChaining:startRulesNode(node1, 'node1@mariano', 'controller@mariano').
+
+
+backwardChaining:executeRules(["51"], "rules-10.txt").

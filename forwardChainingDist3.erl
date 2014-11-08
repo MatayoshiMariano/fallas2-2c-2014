@@ -210,7 +210,13 @@ startRulesNode(RegisterName, CurrentNode, ControllerNode) ->
 %% ----------------------------------------------------------------
 rulesNodeController(ControllerNode) ->
 	receive
+		%  Rules tiene las relaciones extraidas del txt
+		%  Facts tiene los matches
 		{executeRules, Rules, Facts, NodeNumber} ->
+			io:format("en executeRules~n"),
+			% io:format(Rules),
+			printList(Facts),
+			io:format("~n"),
 			TrueRules = executeNodeRules(Facts, Rules, []),
 
 			{controller, ControllerNode} ! {executionResult, TrueRules, NodeNumber},
