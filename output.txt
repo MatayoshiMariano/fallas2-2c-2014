@@ -1,0 +1,1495 @@
+en executeRules
+51,
+
+
+
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:51
+RestAntecedents:
+Consequent:68
+Empieza isInArray
+Element:51
+RestElements:
+SearchedElement:51
+Empieza isTrueRule sin parametros
+Empieza isPartialTrueRule
+Antecedent:51
+RestAntecedents:
+Consequent:68
+Empieza isInArray
+Element:51
+RestElements:
+SearchedElement:51
+se cumple: 51 => 68
+ con los hechos: 51,
+
+
+TrueRule /= noMoreRules
+Empieza isInArray
+Element:51
+RestElements:
+SearchedElement:51
+Empieza isInArray
+Element:51
+RestElements:
+SearchedElement:68
+Empieza isInArray sin parametros
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:38
+RestAntecedents:
+Consequent:40
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:
+SearchedElement:38
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:38
+RestAntecedents:
+Consequent:40
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:
+SearchedElement:38
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 38 => 40
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 42 => 7
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:51
+RestAntecedents:
+Consequent:38
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:51
+Empieza isTrueRule sin parametros
+Empieza isPartialTrueRule
+Antecedent:51
+RestAntecedents:
+Consequent:38
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:51
+se cumple: 51 => 38
+ con los hechos: 51,
+68,
+
+
+TrueRule /= noMoreRules
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:51
+Empieza isInArray
+Element:51
+RestElements:68
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:
+SearchedElement:38
+Empieza isInArray sin parametros
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:38
+RestAntecedents:
+Consequent:40
+Empieza isInArray
+Element:51
+RestElements:6838
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:38
+SearchedElement:38
+Empieza isInArray
+Element:38
+RestElements:
+SearchedElement:38
+Empieza isTrueRule sin parametros
+Empieza isPartialTrueRule
+Antecedent:38
+RestAntecedents:
+Consequent:40
+Empieza isInArray
+Element:51
+RestElements:6838
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:38
+SearchedElement:38
+Empieza isInArray
+Element:38
+RestElements:
+SearchedElement:38
+se cumple: 38 => 40
+ con los hechos: 51,
+68,
+38,
+
+
+TrueRule /= noMoreRules
+Empieza isInArray
+Element:51
+RestElements:6838
+SearchedElement:38
+Empieza isInArray
+Element:68
+RestElements:38
+SearchedElement:38
+Empieza isInArray
+Element:38
+RestElements:
+SearchedElement:38
+Empieza isInArray
+Element:51
+RestElements:6838
+SearchedElement:40
+Empieza isInArray
+Element:68
+RestElements:38
+SearchedElement:40
+Empieza isInArray
+Element:38
+RestElements:
+SearchedElement:40
+Empieza isInArray sin parametros
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 42 => 7
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 88
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 12 => 4
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 37 => 98
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:68
+RestAntecedents:
+Consequent:56
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:68
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:68
+Empieza isTrueRule sin parametros
+Empieza isPartialTrueRule
+Antecedent:68
+RestAntecedents:
+Consequent:56
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:68
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:68
+se cumple: 68 => 56
+ con los hechos: 51,
+68,
+38,
+40,
+
+
+TrueRule /= noMoreRules
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:68
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:68
+Empieza isInArray
+Element:51
+RestElements:683840
+SearchedElement:56
+Empieza isInArray
+Element:68
+RestElements:3840
+SearchedElement:56
+Empieza isInArray
+Element:38
+RestElements:40
+SearchedElement:56
+Empieza isInArray
+Element:40
+RestElements:
+SearchedElement:56
+Empieza isInArray sin parametros
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 42 => 7
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 88
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 12 => 4
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 37 => 98
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 96
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:40
+RestAntecedents:
+Consequent:82
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:40
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:40
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:40
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:40
+Empieza isTrueRule sin parametros
+Empieza isPartialTrueRule
+Antecedent:40
+RestAntecedents:
+Consequent:82
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:40
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:40
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:40
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:40
+se cumple: 40 => 82
+ con los hechos: 51,
+68,
+38,
+40,
+56,
+
+
+TrueRule /= noMoreRules
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:40
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:40
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:40
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:40
+Empieza isInArray
+Element:51
+RestElements:68384056
+SearchedElement:82
+Empieza isInArray
+Element:68
+RestElements:384056
+SearchedElement:82
+Empieza isInArray
+Element:38
+RestElements:4056
+SearchedElement:82
+Empieza isInArray
+Element:40
+RestElements:56
+SearchedElement:82
+Empieza isInArray
+Element:56
+RestElements:
+SearchedElement:82
+Empieza isInArray sin parametros
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:42
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:42
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 42 => 7
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 88
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:12
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:12
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 12 => 4
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:37
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:37
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 37 => 98
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 96
+en executeRules
+51,
+68,
+38,
+40,
+56,
+82,
+
+
+
+Empieza executeNodeRules
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:42
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:42
+RestAntecedents:
+Consequent:7
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:42
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:42
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:42
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:42
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:42
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:42
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 42 => 7
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:88
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 88
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:12
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:12
+RestAntecedents:
+Consequent:4
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:12
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:12
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:12
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:12
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:12
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:12
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 12 => 4
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:37
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:37
+RestAntecedents:
+Consequent:98
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:37
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:37
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:37
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:37
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:37
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:37
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 37 => 98
+
+
+Empieza executeNextRule
+Empieza getRuleState
+Empieza isTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule
+Antecedent:21
+RestAntecedents:
+Consequent:96
+Empieza isInArray
+Element:51
+RestElements:6838405682
+SearchedElement:21
+Empieza isInArray
+Element:68
+RestElements:38405682
+SearchedElement:21
+Empieza isInArray
+Element:38
+RestElements:405682
+SearchedElement:21
+Empieza isInArray
+Element:40
+RestElements:5682
+SearchedElement:21
+Empieza isInArray
+Element:56
+RestElements:82
+SearchedElement:21
+Empieza isInArray
+Element:82
+RestElements:
+SearchedElement:21
+Empieza isInArray sin parametros
+Empieza isPartialTrueRule sin parametros
+NO se cumple: 21 => 96

@@ -44,3 +44,13 @@ forwardChaining:executeNodes(<Facts>, <archivo de reglas>, <numero de nodos a le
 
 ejemplo:
 forwardChaining:executeNodes(["6"], "rules-100.txt", 2).
+
+Nuestro caso:
+
+erl -sname controller
+c(backwardforwardChaining).
+backwardforwardChaining:startControllerNode().
+
+erl -sname node1
+c(backwardforwardChaining).
+backwardforwardChaining:startRulesNode(node1, 'node1@mariano', 'controller@mariano').

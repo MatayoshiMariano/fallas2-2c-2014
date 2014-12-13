@@ -1,4 +1,4 @@
--module(backwardChaining).
+-module(backwardforwardChaining).
 -export([printRules/1]).
 -export([controller/6]).
 -export([startRulesNode/3]).
@@ -327,11 +327,11 @@ controller(NodesWithChanges, NodesWithoutChanges, TBegin, Facts, NodesDataArray,
           NewNodesDataArray = registerRulesForNode(NodesDataArray, NodeNumber, NewRules)
       end,
 
-      io:format("registrando resultado del nodo ~w~n", [NodeNumber]),
-      io:format("registrando resultado ~w - ~w~n",[NewNodesWithoutChanges, NewNodesWithChanges]),
+      % io:format("registrando resultado del nodo ~w~n", [NodeNumber]),
+      % io:format("registrando resultado ~w - ~w~n",[NewNodesWithoutChanges, NewNodesWithChanges]),
 
       NodesCount = length(NodesDataArray),
-      io:format("~nAntes del if: ~n"),
+      % io:format("~nAntes del if: ~n"),
       if
         NodesCount == NewNodesWithoutChanges ->
         %% terminar
@@ -417,6 +417,6 @@ startNode(RegisterName, FunctionName, ParamsArray) ->
     unregister(RegisterName)
   end,
 
-  PID = spawn(backwardChaining, FunctionName, ParamsArray),
+  PID = spawn(backwardforwardChaining, FunctionName, ParamsArray),
   register(RegisterName, PID).
 
