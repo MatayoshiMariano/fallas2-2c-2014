@@ -1,7 +1,7 @@
 <?php
 
-//$page = file_get_contents("http://www.imdb.com/chart/top");
-$page = file_get_contents("imdb.txt");
+$page = file_get_contents("http://www.imdb.com/chart/top");
+//$page = file_get_contents("imdb.txt");
 
 //preg_match_all('/\/title\/tt([0-9]+)\/[^"]+"\stitle[^>]+>([^<]+)/si', $page, $matches);
 preg_match_all('/\/title\/tt([0-9]+)\/[^"]+"\stitle[^>]+>([^<]+)<[^<]+<[^>]+>\(([0-9]+)\)/si', $page, $matches);
